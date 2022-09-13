@@ -1,5 +1,5 @@
 all:
-	rm -rf class_op.log
+
 	rm -rf work
 	clear
 	vlib work
@@ -10,9 +10,9 @@ compile:
 	vlog -sv class.sv
 
 simulate:
-	vsim check_electricity -c -do "run -all;quit;"
+	vsim check_electricity -l class_op.log -c -do "run -all;quit;"
 
 clear:
-	rm -rf class.log
+	
 	rm -rf work
 	clear
