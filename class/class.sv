@@ -1,27 +1,43 @@
-class home;   //define class  
+class parent_class;   //define class  
 
 
  //declare class properties  
   
-    bit light;  
-    int fan;  
-    string switch;  
+    bit a;
+    bit b;
+    int c;
+
 
  //define class method(task/function)  
   
-   task open_electricity();  
-     switch = "ON";  
-     $display("switch is %s so electricity is open",switch);
+   task process_ex;    
+    fork
+     #2 $display("thread-1 is executed at %0t time",$time);
+     #4 $display("thread-2 is executed at %0t time",$time);
+   join
+    #1 $display("thread -3 is executed at %0t time",$time);
    endtask  
+
+   function int Add (int a,int b);
+      int sum;
+      sum = a+b;
+      return sum;
+
+   endfunction
+
 endclass
 
-  module check_electricity;  
-   initial begin  
-     home home_1;             //creating handle  
-     home_1=new();            //Creating Object for the Handle 
-     home_1.fan=1;            // access the properties
-     home_1.light=1;
-     home_1.open_electricity;          // access the method
-      $display("light=%0d fan=%0d",home_1.light,home_1.fan);
+  parent_class p1;             //creating handle
+  
+  module class_ex;  
+      int x;
+     initial begin
+
+      p1=new() ;           //Creating Object for the Handle 
+      p1.c = 4;            // access the properties
+      p1.process_ex;       // access the method
+      x = p1.Add(2,3);
+      $display("after using the access method the value of c =%0d",p1.c); 
+      $display("sum=%0d",x);
    end  
   endmodule
