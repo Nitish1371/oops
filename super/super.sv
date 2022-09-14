@@ -11,7 +11,7 @@ class sub_class extends base_class;
  string fan="ON";
   function void display();
     super.display;
-    $display(" that's why fan is %s " ,fan);
+    $write(" that's why fan is %s \n" ,fan);
   endfunction 
 endclass
 
