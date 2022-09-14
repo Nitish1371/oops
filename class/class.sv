@@ -1,3 +1,7 @@
+//-------------------------------------------------------
+//
+//
+//-------------------------------------------------------
 class home;   //define class  
 
  //declare class properties  
@@ -8,7 +12,7 @@ class home;   //define class
  //define class method(task/function)  
  task open_electricity();  
    switch = "ON";
-   $display("switch is %s so electricity is open",switch);  
+   $display("switch is %0s so electricity is open",switch);  
  endtask  
 endclass  
 

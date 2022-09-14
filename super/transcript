@@ -1,5 +1,5 @@
-# vsim super_ex -c -do "run -all;quit;" 
-# Start time: 02:39:42 on Sep 15,2022
+# vsim super_example -c -do "run -all;quit;" 
+# Start time: 03:49:47 on Sep 15,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
@@ -17,9 +17,9 @@
 # //
 # Loading sv_std.std
 # Loading work.super_sv_unit(fast)
-# Loading work.super_ex(fast)
+# Loading work.super_example(fast)
 # run -all
-# switch is ON  that's why fan is ON 
+# switch is ON that's why fan is ON 
 # quit
-# End time: 02:39:43 on Sep 15,2022, Elapsed time: 0:00:01
+# End time: 03:49:47 on Sep 15,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
