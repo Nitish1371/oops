@@ -1,6 +1,6 @@
-# vsim check_electricity -c -do "run -all;quit;" 
-# Start time: 02:31:27 on Sep 15,2022
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim check_electricity -l this.log -c -do "run -all;exit;" 
+# Start time: 02:32:16 on Sep 15,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
 # //
@@ -20,6 +20,6 @@
 # Loading work.check_electricity(fast)
 # run -all
 # switch is ON that's why fan is ON
-# quit
-# End time: 02:31:28 on Sep 15,2022, Elapsed time: 0:00:01
+# exit
+# End time: 02:32:17 on Sep 15,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

@@ -3,14 +3,14 @@ all:
 	rm -rf work
 	clear
 	vlib work
-	vlog -sv this.sv && vsim class_example -c -do "run -all;quit;"
+	vlog -sv this.sv && vsim check_electricity -c -do "run -all;quit;"
 
 compile:
 		vlib work
-		vlog -sv class_example.sv
+		vlog -sv check_electricity.sv
 
 simulate:
-		vsim class_example -l this_op.log -c -do "run -all;quit;"
+		vsim check_electricity -l this.log -c -do "run -all;quit;"
 
 clear:
 		
