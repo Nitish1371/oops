@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/nitishyadav/hwetools/work_area/frontend/nitish_b7/oops
+T_opt
+!s110 1663353542
+VJCo8olP=@?of=G3BV84<j0
+04 2 4 work tb fast 0
+=1-a4badb503ddf-6324c2c6-89529-d53
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+Xhandle_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+VE8BJJ]mK3i64L`6AgYTk83
+r1
+!s85 0
+31
+!i10b 1
+!s100 F@zbo2`l7CkdIGC9SkM4a3
+IE8BJJ]mK3i64L`6AgYTk83
+!i103 1
+S1
+R0
+w1663398263
+8handle.sv
+Fhandle.sv
+L0 1
+Z3 OE;L;10.6c;65
+!s108 1663352821.000000
+!s107 handle.sv|
+!s90 -sv|handle.sv|
+!i113 0
+Z4 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xobject_sv_unit
+R2
+V9ATX5b9<e=T_e5_Zh5;gi3
+r1
+!s85 0
+31
+!i10b 1
+!s100 g7zKnXXWFl6dBaoU^_I4=2
+I9ATX5b9<e=T_e5_Zh5;gi3
+!i103 1
+S1
+R0
+Z5 w1663398996
+Z6 8object.sv
+Z7 Fobject.sv
+L0 1
+R3
+Z8 !s108 1663353538.000000
+Z9 !s107 object.sv|
+Z10 !s90 -sv|object.sv|
+!i113 0
+R4
+R1
+vtb
+R2
+DXx4 work 14 object_sv_unit 0 22 9ATX5b9<e=T_e5_Zh5;gi3
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @O2R28_mPcUED61?5]K5k0
+I9gb<Z`Pd0zE3hU]d;EPGf3
+!s105 object_sv_unit
+S1
+R0
+R5
+R6
+R7
+L0 15
+R3
+R8
+R9
+R10
+!i113 0
+R4
+R1
